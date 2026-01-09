@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.boardGrid {
+  display: grid;
+  /* This creates 4 columns, each taking up 1 fraction of the space */
+  grid-template-columns: repeat(4, 1fr); 
+  
+  /* This adds spacing between the cards */
+  gap: 20px; 
+  
+  /* Centers the grid on the page */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
